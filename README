@@ -6,7 +6,7 @@ Then to see the site:
 
 `mkdocs serve`
 
-You can then go to the site in your browser: http://localhost:8080
+You can then go to the site in your browser: http://localhost:8000
 It will even auto-refresh when you make changes!
 
 To publish:
