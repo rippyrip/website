@@ -1,1 +1,3 @@
 site_name: rippy.rip
+theme_dir: cinder
+site_favicon: favicon.ico
