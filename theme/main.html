@@ -10,6 +10,8 @@
       {% for nav_item in nav %}
         {% if not nav_item.active%}
         <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+        {% else %}
+        {{ nav_item.title }}
         {% endif %}
       {% endfor %}
       </p>
