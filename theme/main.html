@@ -5,17 +5,16 @@
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
-    {% if nav|length>1 %}
-      <p>
-      {% for nav_item in nav %}
-        {% if not nav_item.active%}
-        <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-        {% else %}
-        {{ nav_item.title }}
-        {% endif %}
-      {% endfor %}
-      </p>
-    {% endif %}
-    {{ page.content }}
+    <nav>
+      <ul>
+        <li>{{ config.site_name }}
+        {% for nav_item in nav %}
+        <li><a href="{{ nav_item.url }}"{% if nav_item.active %} class="active"{% endif %}>{{ nav_item.title }}</a>
+        {% endfor %}
+      </ul>
+    </nav>
+    <article>
+      {{ page.content }}
+    </article
   </body>
 </html>
