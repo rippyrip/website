@@ -6,12 +6,12 @@
   </head>
   <body>
     <nav>
-      <ul>
-        <li>{{ config.site_name }}
-        {% for nav_item in nav %}
-        <li><a href="{{ nav_item.url }}"{% if nav_item.active %} class="active"{% endif %}>{{ nav_item.title }}</a>
-        {% endfor %}
-      </ul>
+      <div class="nav-interior">
+        <span class="logotype">{{ config.site_name }}</span>
+          {% for nav_item in nav %}
+            <a href="{{ nav_item.url }}"{% if nav_item.active %} class="active"{% endif %}>{{ nav_item.title }}</a>
+          {% endfor %}
+      </div>
     </nav>
     <article>
       {{ page.content }}
