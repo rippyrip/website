@@ -11,7 +11,6 @@
 
 Official channels are #help and #what-refuge.
 
-1. No name-dropping, no star fucking
 1. Be excellent to each other
 1. No sexism, racism, homophobia, transphobia or otherwise being nasty
 1. No politics, no religion
