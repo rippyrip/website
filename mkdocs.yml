@@ -1,4 +1,4 @@
 site_name: rippy.rip
-theme: null
-theme_dir: theme
-site_favicon: favicon.ico
+theme:
+  name: null
+  custom_dir: theme
