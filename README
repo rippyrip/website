@@ -1,16 +1,16 @@
-You'll need Python and mkdocs. Assuming you have Python:
+You'll need Python and pipenv:
 
-`pip install mkdocs`
+`pipenv install`
 
 Then to see the site:
 
-`mkdocs serve`
+`pipenv run mkdocs serve`
 
 You can then go to the site in your browser: http://localhost:8000
 It will even auto-refresh when you make changes!
 
 To publish:
 
-`mkdocs build`
+`pipenv run mkdocs build`
 
 This will render the site to plain HTML and put it all in the "site" folder
