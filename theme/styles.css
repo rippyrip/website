@@ -90,3 +90,9 @@ a {
 a:visited {
   color: #cc8888;
 }
+
+.alert {
+  background: #ff9999;
+  border: 1px solid #ff0000;
+  padding: 1em;
+}
